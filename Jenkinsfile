@@ -6,7 +6,7 @@ pipeline {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
         DOCKER_IMAGE = 'cithit/brownc61'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'http://jenkins-dev.cit.reigonals.miamioh.edu:8080/job/brownc61-225/configure'                   // <------change this
+        GITHUB_URL = 'https://github.com/brownc61/test1.git'                   // <------change this
         KUBECONFIG = credentials('brownc61-225')                                             // <------change this
     }
 
